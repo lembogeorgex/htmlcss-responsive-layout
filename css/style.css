@@ -48,34 +48,9 @@ header {
 }
 
 
-@media screen and (max-width: 992px) {
-    header {
-        max-width: 992px;
-    }
-
-    .display-nav {
-        display: none;
-    }
-
-    .hamburger-menu {
-        display: block;
-    }
-}
 
 
-@media screen and (max-width: 576px) {
-    header {
-        max-width: 576px;
-    }
 
-    .display-nav {
-        display: none;
-    }
-
-    .hamburger-menu {
-        display: block;
-    }
-}
 
 
 .header-content {
@@ -91,6 +66,19 @@ header {
     min-height: 200px;
     background-color: green;
     border: 1px solid black;
+}
+
+/* Large card content */
+.inside-large-content {
+    width: 70%;
+    min-height: 100px;
+    background-color: red;
+}
+
+.inside-small-content {
+    width: 30%;
+    min-height: 100px;
+    background-color: red;
 }
 
 .demo-card {
@@ -113,4 +101,37 @@ header {
     gap: 20px;
     flex-wrap: wrap;
 
+}
+
+
+@media screen and (max-width: 992px) {
+    /* Header responsive settings */
+
+    .display-nav {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* Demo Section responsive settings */
+
+    .large-card {
+        display: block;
+    }
+
+    .inside-large-content {
+        width: 100%;
+    }
+
+    .inside-small-content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .demoflex {
+        display: block;
+    }
 }
