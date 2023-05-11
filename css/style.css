@@ -1,0 +1,21 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    font: PT Sans;
+}
+
+/* Utilities */
+:root {
+    --blue: rgb(0, 132, 253);
+    --azure: rgb(181, 221, 255);
+    --purple: rgb(151, 146, 228);
+    --yellow: rgb(253, 193, 95);
+    --gray: rgb(51, 51, 51);
+
+}
