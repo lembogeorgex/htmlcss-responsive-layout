@@ -23,6 +23,7 @@ section {
     padding-bottom: 100px;
 }
 
+
 /* Utilities */
 :root {
     --blue: rgb(0, 132, 253);
@@ -52,6 +53,9 @@ header {
     display: none;
 }
 
+.header-btn {
+    display: inline-block;
+}
 
 
 
@@ -119,6 +123,27 @@ header {
 
 .strategic {
     gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testim-flex {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Testimonial section */
+.testimonials {
+    background-color: lightcoral;
+}
+
+.largest-card {
+    width: 100%;
+    min-height: 100px;
+    background-color: lawngreen;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+
 }
 
 @media screen and (max-width: 992px) {
@@ -145,6 +170,16 @@ header {
     .inside-small-content {
         width: 100%;
     }
+
+    /* Strategic section responsive settings */
+
+    .strategic.large-card,
+    .strategic.demo-card {
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -160,4 +195,6 @@ header {
         margin-left: 50px;
         margin-right: 50px;
     }
+
+
 }
