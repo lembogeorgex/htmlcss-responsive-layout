@@ -18,6 +18,11 @@ ul li {
     display: inline;
 }
 
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /* Utilities */
 :root {
     --blue: rgb(0, 132, 253);
@@ -91,7 +96,6 @@ header {
 
 /* Section Demo */
 .demo {
-    padding-top: 50px;
     background-color: aquamarine;
 }
 
@@ -103,6 +107,19 @@ header {
 
 }
 
+
+
+
+
+/* Purple Strategic section */
+
+.purple-strategic {
+    background-color: var(--purple);
+}
+
+.strategic {
+    gap: 20px;
+}
 
 @media screen and (max-width: 992px) {
     /* Header responsive settings */
@@ -131,10 +148,6 @@ header {
 }
 
 @media screen and (max-width: 576px) {
-
-    .demo {
-        flex-wrap: wrap;
-    }
 
     .large-card {
         width: 100%;
