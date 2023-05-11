@@ -131,7 +131,20 @@ header {
 }
 
 @media screen and (max-width: 576px) {
-    .demoflex {
-        display: block;
+
+    .demo {
+        flex-wrap: wrap;
+    }
+
+    .large-card {
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .demo-card {
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
